@@ -3,19 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Show Project | My Name (My GitHub username)</title>
+    <title>TV Show Project | Kara Howard (kmh256)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
+    <header>
+      <h1>TV Shows</h1>
+      <form class="row">
+        <input id="searchBar" placeholder="Search">
+      </form>
+    </header>
     <div id="root">
     </div>
 
-    <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
-    <script src="episodes.js"></script>
-
+    <!-- Loads a provided function called getAllShows() which returns all shows -->
+    <script src="shows.js"></script>
     <!-- Loads YOUR javascript code -->
     <script src="script.js"></script>
+    <footer>
+      <h4><a href="https://www.tvmaze.com/" target="_blank">Data from TVMaze.com</a></h4>
+    </footer>
   </body>
 </html>
